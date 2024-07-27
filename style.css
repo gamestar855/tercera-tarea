@@ -1,0 +1,15 @@
+body{
+    width: 8000px;
+}
+div{
+    float: left;
+    width: 1500px;
+}
+.fondo{
+    width: 1500px;
+    height: 700px;
+}
+.calle{
+    width: 1500px;
+    margin-top: -10px;
+}
