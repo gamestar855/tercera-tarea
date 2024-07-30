@@ -13,3 +13,31 @@ div{
     width: 1500px;
     margin-top: -10px;
 }
+.stop{
+   
+    height: 200px;
+    width: 200px;
+    margin-left: 1320px;
+    margin-top: -600px;
+}
+
+@keyframes moveCohete {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(7290px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.cohete {
+    position:relative;
+    animation: moveCohete 20s infinite;
+    height: 200px;
+    width: 200px;
+    margin-right: 1320px;
+    margin-top: -600px;
+}
